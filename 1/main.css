@@ -49,8 +49,8 @@
 	}
 
 	[data-night-mode] header.header {
-		background: #3c3c3c !important;
-		color: #0000 !important
+		background: #9b9b9b !important;
+		color: #45444400 !important
 	}
 
 	[data-night-mode] header.header>.left>nav.main>ul li a+strong {
