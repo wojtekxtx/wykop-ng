@@ -13,11 +13,11 @@
 	[data-night-mode] aside.left-panel>section.links>.content ul li.bucket.new:after,
 	[data-night-mode] header.header>.right>nav>ul>li>a.new:after,
 	[data-night-mode] li.account>a>a {
-		--whitish: #c8c0c0;
+		--whitish: #7c7b7b;
 		--porcelain: #1c1c1c;
 		--steelBluish: #9292c1;
-		--gullGray: #cad0d0;
-		--tuna: #c4c8c9;
+		--gullGray: #696c6c;
+		--tuna: #7b8dd8;
 		--abbey: #c4c8c9;
 		--squeeze: rgba(var(--blackishRGB), 0.025)
 	}
