@@ -4,7 +4,7 @@
 @namespace    userstyles.world/user/wojtekxtx
 @description  Stylowanie, jakie pokochali użytkownicy
 @author       wojtekxtx
-@license      No License
+@license      MIT
 ==/UserStyle== */
 
 @-moz-document domain("wykop.pl") {
@@ -15,7 +15,7 @@
 	[data-night-mode] li.account>a>a {
 		--whitish: #2c2c2c;
 		--porcelain: #1c1c1c;
-		--steelBluish: #cad0d0;
+		--steelBluish: #9292c1;
 		--gullGray: #cad0d0;
 		--tuna: #c4c8c9;
 		--abbey: #c4c8c9;
@@ -55,8 +55,8 @@
 
 	[data-night-mode] header.header>.left>nav.main>ul li a+strong {
 		background: #f75e2c;
-		-webkit-box-shadow: none;
-		box-shadow: none
+		-webkit-box-shadow: 1px var(--gullGray);
+		box-shadow: 1px #9292c1;
 	}
 
 	[data-night-mode] li.home.active span {
@@ -343,5 +343,10 @@
 
 	[data-night-mode] section.notifications section.stream>.content {
 		background: #1c1c1c;
+	}
+
+	section.notifications,
+	section.stream>.content {
+		background: beige;
 	}
 }
