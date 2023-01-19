@@ -13,7 +13,7 @@
 	[data-night-mode] aside.left-panel>section.links>.content ul li.bucket.new:after,
 	[data-night-mode] header.header>.right>nav>ul>li>a.new:after,
 	[data-night-mode] li.account>a>a {
-		--whitish: #2c2c2c;
+		--whitish: #c8c0c0;
 		--porcelain: #1c1c1c;
 		--steelBluish: #9292c1;
 		--gullGray: #cad0d0;
@@ -26,7 +26,7 @@
 	[data-night-mode] aside.left-panel>section.buttons>.content ul li a:before,
 	[data-night-mode] ul.menu-dropdown,
 	[data-night-mode] section.editor>header>ul>li.lenny-face ul.menu-dropdown {
-		border: none
+		border: 1px var(--whitish) thin;
 	}
 
 	[data-night-mode] .form-elements p:not(.popper).or span,
@@ -45,7 +45,7 @@
 	[data-night-mode] section.search-input form>input[type=search],
 	[data-night-mode] section.user-info,
 	[data-night-mode] ul.dropdown:not(.clear-styles) ul.actions {
-		background: #2c2c2c !important
+		background: #9292c1 !important
 	}
 
 	[data-night-mode] header.header {
