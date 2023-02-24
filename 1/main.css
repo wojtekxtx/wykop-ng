@@ -34,7 +34,6 @@
 	[data-night-mode] header.header>.right>nav>ul>li.dropdown>section,
 	[data-night-mode] header.header>.right>nav>ul>li.dropdown>ul,
 	[data-night-mode] li>section section.notifications>.stream>.content>.notify,
-	[data-night-mode] li>section section.notifications>.stream>.content>.read,
 	[data-night-mode] li>section section.stream>.content,
 	[data-night-mode] li>section section.stream>.content>section,
 	[data-night-mode] li>section section.stream>.content>section.item:hover,
